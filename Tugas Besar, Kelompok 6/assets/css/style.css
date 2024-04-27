@@ -1,0 +1,40 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.w-45 {
+  width: 45%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-80 {
+  width: 80%;
+}
+
+.my-10 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.my-6 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.grid-2x4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.under-yellow {
+  text-decoration: underline orange;
+}
+
+.shadow-dark {
+  box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
